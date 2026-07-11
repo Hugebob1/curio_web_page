@@ -1,0 +1,24 @@
+@import url('./curio-base.css');
+
+details.card {
+  padding-top: 26px;
+}
+
+details.card summary {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  list-style: none;
+}
+
+details.card summary::-webkit-details-marker {
+  display: none;
+}
+
+details.card[open] {
+  border-color: var(--accent);
+}
+
+details.card .feature-copy {
+  margin-top: 14px;
+}
